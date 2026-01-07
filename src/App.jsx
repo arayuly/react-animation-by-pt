@@ -5,9 +5,12 @@ function App() {
 
   return (
     <>
-      <motion.dev initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
+      <motion.div
+        initial={{ opacity: 0, y: -40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}>
         <h1>Hello</h1>
-      </motion.dev>
+      </motion.div>
     </>
   )
 }
