@@ -6,12 +6,13 @@ import { DraggableCard } from './components/DraggableCard'
 import { DismissableAlert } from './components/DismissableAlert'
 import { StepSwitcher } from './components/StepSwitcher'
 import { CollapsibleList } from './components/CollapsibleList'
+import { LiveBadge } from './components/LiveBadge'
 
 function App() {
 
   return (
     <>
-      <CollapsibleList />
+      <LiveBadge />
     </>
   )
 }
