@@ -57,3 +57,33 @@
 .card:active {
   cursor: grabbing;
 }
+
+.alert {
+  width: max-content;
+  padding: 15px;
+  border-radius: 12px;
+  background: red;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+}
+
+.step-box {
+  position: relative;
+  height: 80px;
+  margin-top: 12px;
+}
+.step-card {
+  position: absolute;
+  inset: 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+}
